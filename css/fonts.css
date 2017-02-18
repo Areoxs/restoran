@@ -41,20 +41,21 @@
 /* font-family: "Average"; */
 @font-face {
 	font-family: "Average";
-	src: url("../fonts/Average/Average-Regular.eot");
-	src: url("../fonts/Average/Average-Regular.eot?#iefix")format("embedded-opentype"),
-	url("../fonts/Average/Average-Regular.woff") format("woff"),
-	url("../fonts/Average/Average-Regular.ttf") format("truetype");
+	src: url("../fonts/Average/Average-Regular.ttf");
 	font-style: normal;
 	font-weight: normal;
 }
 /* font-family: "Montserrat"; */
 @font-face {
 	font-family: "Montserrat";
-	src: url("../fonts/Montserrat/Montserrat-Regular.eot");
-	src: url("../fonts/Montserrat/Montserrat-Regular.eot?#iefix")format("embedded-opentype"),
-	url("../fonts/Montserrat/Montserrat-Regular.woff") format("woff"),
-	url("../fonts/Montserrat/Montserrat-Regular.ttf") format("truetype");
+	src: url("../fonts/Montserrat/Montserrat-Regular.ttf");
+	font-style: normal;
+	font-weight: normal;
+}
+/* font-family: "WildYouth"; */
+@font-face {
+	font-family: "WildYouth";
+	src: url("../fonts/WildYouth/WildYouth-Regular.otf");
 	font-style: normal;
 	font-weight: normal;
 }
