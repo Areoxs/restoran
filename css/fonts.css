@@ -52,6 +52,13 @@
 	font-style: normal;
 	font-weight: normal;
 }
+/* font-family: "MontserratBold"; */
+@font-face {
+	font-family: "MontserratBold";
+	src: url("../fonts/MontserratBold/MontserratBold.ttf");
+	font-style: normal;
+	font-weight: normal;
+}
 /* font-family: "WildYouth"; */
 @font-face {
 	font-family: "WildYouth";
