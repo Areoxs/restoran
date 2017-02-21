@@ -68,8 +68,8 @@ body {
     -webkit-transition: all .2s;
     transition:all .2s;
 }
-.social_btn{
-   padding:0 4px;
+.social_btn:not(:last-pf-type){
+  margin:0 4px;
 }
 .geolink:hover,.social_btn:hover{
     color:#d22c2c;
@@ -96,8 +96,8 @@ body {
     color:#fff;
     text-transform: uppercase;
     text-decoration: none;
-    -webkit-transition: all .2s'';
-    transition: all .2s''
+    -webkit-transition: all .2s;
+    transition: all .2s;
 }
 .main_nav_itm_inv_color{
     color:#1b1b1b;
@@ -112,12 +112,12 @@ body {
     padding-right:0;
 }
 .welcome{
-    padding:30px 0;
     min-height:800px;
     background-color: #302b2b;
     position: relative;
 }
 .welcome_content{
+    margin:140px auto 100px auto;
     text-align: center;
 }
 .welcome_content__title{
@@ -176,6 +176,7 @@ body {
     outline:1px solid #000;
 }
 .add_scroll{
+    width:100%;
     position: absolute;
     bottom: 30px;
     text-align: center;
@@ -195,14 +196,25 @@ body {
     margin-bottom:30px;
     text-align: center;
 }
+.logo_container{
+     width: 44px;
+  height: 39px;
+  -o-object-fit: contain;
+  object-fit: contain;
+   background-image: url(../img/logo.png) ;
+background-repeat: no-repeat;
+}
 .reserv .social_btn_wrap{
     margin:45px auto;
 }
 .org_food{
     padding: 90px 0 45px 0;
     min-height:680px;
-    background-color: #646262;
+    background-color: #cccccc;
     position: relative;
+}
+.org_food  .main_nav li:first-child .main_nav_itm,.org_food  .main_nav li:last-child .main_nav_itm{
+    padding:0;
 }
 .org_food_content{
     margin:170px auto;
@@ -220,11 +232,42 @@ body {
     line-height: 26px;
     color:#1b1b1b;
     text-transform: uppercase;
+    letter-spacing: 4.3px;
+    margin: 0;
+    padding: 0;
 }
-.org_food_content_text{
-    margin:42px auto 60px auto;
+.main_text{
     font-family: "Average";
     font-size:15px;
     line-height: 26px;
     color:#4d4d4d;
+}
+.org_food_content_text{
+    margin:42px auto 60px auto;
+}
+.org_food__add__content{
+    min-height:600px;
+    background-color: #dddddd;
+}
+.org_food__add__content_info_title{
+     color: #e4bb7a;
+    font-family: "WildYouth";
+    font-size:45px;
+    margin:0 auto 17px;
+    padding: 0;
+}
+.org_food__add__content_info{
+    margin:114px auto;
+    padding:20px 54px 30px 74px;
+    background-color: #fff;
+}
+.main_title span{
+     color: #e4bb7a;
+    font-family: "WildYouth";
+    line-height: 26px;
+    font-size:45px;
+}
+.history{
+    min-height:600px;
+    background-color: #3f3f3f;
 }
