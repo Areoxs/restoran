@@ -35,6 +35,8 @@ body {
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
 }
 .flex_wrap_hor_center{
     display:-webkit-box;
@@ -62,7 +64,7 @@ body {
     text-transform: uppercase;
     letter-spacing: 4.3px;
     margin: 0;
-    margin-bottom: 42px;
+    margin-bottom: 1.16em;
     padding: 0;
 }
 .main_title_invert_color{
@@ -70,7 +72,7 @@ body {
 }
 .alt_title{
     margin: 0;
-    padding: 0;
+  padding: 0;
   font-family: "WildYouth";
   font-size: 50px;
   line-height: 1.3;
@@ -82,10 +84,17 @@ body {
     font-size:15px;
     line-height: 26px;
     color:#4d4d4d;
-    margin-bottom: 44px;
+    margin-bottom: 2.9em;
 }
 .main_text_invert_color{
     color:#eee;
+}
+.main_tag{
+    padding: 0;
+    margin: 0;
+    font-size:15px;
+    font-family: "Average";
+    color: #e4bb7a;
 }
 /*TOP LINE*/
 .top_line{
@@ -192,6 +201,10 @@ body {
     background-color: #e4bb7a;
     border-radius:3px;
     color:#121212;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
     -webkit-transition: all .2s;
     transition: all .2s;
 }
@@ -291,12 +304,56 @@ background-repeat: no-repeat;
     font-size:36px;
     line-height: 0.69;
 }
-.menu_tag{
+.rest_menu_tag,.our_menu_tag{
     text-align: center;
-    margin:84px auto 100px;
+    margin:3em auto 5em;
 }
-.menu_content_itm{
-    padding:55px 52px 48px 120px;
-     box-shadow: 0 0 36.1px 1.9px rgba(0, 0, 0, 0.05);
+.rest_menu_content_itm{
+    position: relative;
+    -ms-flex-negative: 1;
+    flex-shrink: 1;
+    -ms-flex-preferred-size: 49%;
+    flex-basis: 49%;
+    margin-bottom:28px;
+}
+.rest_menu_content_itm_align_right{
+    padding-left: 117px;
+}
+.rest_menu_content_itm_align_left{
+    padding-right: 117px;
+}
+.rest_menu_content_itm_description{
+    height: 100%;
+    padding:55px 0 48px;
+box-shadow: 0 0 36px 2px rgba(0, 0, 0, 0.05);
   border: solid 1px #e4bb7a;
+} 
+.rest_menu_content_itm_description_align_right{
+    padding-left:147px ;
+    padding-right: 25px;
+}
+.rest_menu_content_itm_description_align_left{
+    padding-right:147px ;
+    padding-left: 25px;
+}
+.rest_menu_content_itm_img{
+    position: absolute;
+    top:110px;
+}
+.rest_menu_content_itm_img_left{
+    left:0;
+}
+.rest_menu_content_itm_img_right{
+    right:0
+}
+.rest_menu_content_itm_description .main_title{
+    margin-bottom:.2em;
+}
+.cost{
+  font-family: "MontserratBold";
+  font-size: 24px;
+  color: #150e06;
+}
+.our_menu{
+    background-color: #292929;
 }
