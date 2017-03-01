@@ -27,6 +27,7 @@ body {
 	font-family: "RobotoRegular",Verdana,Arial, sans-serif;
 	font-size: 16px;
 }
+
 /*Flex_modification*/
 .flex_wrap{
     display:-webkit-box;
@@ -163,7 +164,7 @@ body {
     position: relative;
 }
 .welcome_content{
-    margin:120px auto 100px ;
+    margin:11em auto 4em;
     text-align: center;
 }
 .welcome_content__title{
@@ -304,7 +305,7 @@ background-repeat: no-repeat;
     font-size:36px;
     line-height: 0.69;
 }
-.rest_menu_tag,.our_menu_tag{
+.main_tag_line{
     text-align: center;
     margin:3em auto 5em;
 }
@@ -356,4 +357,140 @@ box-shadow: 0 0 36px 2px rgba(0, 0, 0, 0.05);
 }
 .our_menu{
     background-color: #292929;
+}
+.our_menu_content{
+    margin-bottom: 3em;
+}
+.our_menu_content_itm{
+    margin-bottom:2em;
+    -ms-flex-preferred-size: 49%;
+    flex-basis: 49%;
+}
+.our_menu_content_itm_img{
+    width:70px;
+    height:70px;
+    border-radius: 50%;
+}
+.our_menu_content_itm_wrap{
+ padding:.5em 0 .2em;
+}
+.itm_title{
+    margin: 0;
+    padding: 0;
+    font-family: "MontserratBold";
+    font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 1.9px;
+  color: #fff;
+    text-transform: uppercase;
+}
+.itm_title_invert_color{
+    color:#000;
+}
+.our_menu_content_itm_cost{
+    display: inline-block;
+    margin-top:1.5em;
+ font-family: "MontserratBold";
+  font-size: 16px;
+  color: #fff;
+}
+.open_house{
+     background-color: #1a1a1a;
+}
+.open_house_content{
+    background-color: #fff;
+    min-height: 352px;
+    margin-bottom: 8em;
+}
+.open_house_content_img{
+    float:left;
+    width:66.6666%;
+    height:352px;
+    background: url(../img/nice_view.png) no-repeat center center ;
+    background-size:cover;
+}
+.open_house_content_desr{
+    width:33.3333%;
+    height:352px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    outline: 1px solid #1d1d1c; 
+    outline-offset: -10px; 
+    text-align: center;
+background-color: #eeeeee; /* Old browsers */ /* FF3.6-15 */
+background: -webkit-radial-gradient(center, ellipse cover, #eeeeee 0%,#cccccc 100%); /* Chrome10-25,Safari5.1-6 */
+background: -webkit-radial-gradient(center ellipse, #eeeeee 0%,#cccccc 100%);
+background: radial-gradient(ellipse at center, #eeeeee 0%,#cccccc 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#cccccc',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+.open_house_content_desr_itm{
+  font-family: "Average";
+  font-size: 15px;
+  line-height: 1.67;
+  color: #4d4d4d;
+}
+.open_house_content_desr_itm span{
+    font-family: "MontserratBold";
+    line-height: 1.73;
+  letter-spacing: 1.8px;
+  color: #000;
+}
+.our_chef{
+    background-color: #292929;
+}
+.our_chef_content_wrap,.our_chef_add_content_wrap{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-bottom: 3em;
+}
+.our_chef_content_itm,.our_chef_add_content_itm{
+    -webkit-box-flex:1;
+    -ms-flex:1;
+    flex:1;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+.our_chef_content_itm_img{
+    width:270px;
+    height: 270px;
+    border-radius: 50%;
+   margin-bottom: 3em;
+}
+.our_chef_content_itm .social_btn_wrap,.our_chef_add_content_itm .social_btn_wrap{
+    margin:1em auto 0;
+}
+.our_chef_content_itm .social_btn_wrap{
+    margin:1em auto;
+}
+.our_chef_content_itm .social_btn{
+    color:#e4bb7a;
+}
+.our_chef_content_itm .social_btn:hover{
+    color:#e7ca7c;
+}
+.our_chef_content_itm .main_text{
+    text-align: center;
+    width:60%;
+}
+.our_chef_add_content_itm_img{
+   width:370px;
+    height:370px;
+    margin-bottom: 2em;
+}
+.reservation{
+    min-height: 400px;
+background-color: #1a1a1a;
+}
+.reservation_invert_color{
+    background-color: #fff;
 }
