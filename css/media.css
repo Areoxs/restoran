@@ -2,7 +2,50 @@
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
-
+    .rest_menu_content_itm{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        text-align: center;
+box-shadow: 0 0 36px 2px rgba(0, 0, 0, 0.05);
+  border: solid 1px #e4bb7a;
+    }
+    .rest_menu_content_itm_img{
+     margin:2em auto;
+    }
+    .rest_menu_content_itm_description{
+        padding:.4em;
+        border:none;
+        box-shadow: none;
+    }
+.rest_menu_content_itm_align_right{
+    padding-left:0;
+}
+.rest_menu_content_itm_align_left{
+    padding-right: 0;
+}
+    .rest_menu_content_itm_description_align_right{
+    padding-left:0 ;
+    padding-right: 0;
+}
+.rest_menu_content_itm_description_align_left{
+    padding-right:0;
+    padding-left: 20;
+}
+    .rest_menu_content_itm_img{
+    position: static;
+   
+}
 }
 
 /* Medium Devices, Desktops */
