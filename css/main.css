@@ -77,6 +77,37 @@ body {
     text-align: center;
     margin:3em auto 5em;
 }
+/*MAIN BUTTON*/
+.main_btn{
+    padding:19px 63px;
+    text-transform: uppercase;
+    font-family: "Montserrat";
+    font-size:15px;
+    background-color: #e4bb7a;
+    border-radius:3px;
+    color:#121212;
+    cursor: pointer;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+    -webkit-transition: all .2s;
+    transition: all .2s;
+}
+.main_btn:hover{
+    text-decoration: none;
+     background-color:#e2e21c;
+    color:#121212;
+}
+.main_btn:focus{
+    text-decoration: none;
+    color:#121212;
+    outline: 1px solid #28a9e0;
+}
+.main_btn_alt{
+    background-color: inherit;
+    outline:1px solid #000;
+}
 /*TOP LINE*/
 .top_line{
    background-color:#e4bb7a;
@@ -165,37 +196,6 @@ body {
 .main_btn_wrap{
     margin:4em auto;
     text-align: center;
-}
-/*MAIN BUTTON*/
-.main_btn{
-    padding:19px 63px;
-    text-transform: uppercase;
-    font-family: "Montserrat";
-    font-size:15px;
-    background-color: #e4bb7a;
-    border-radius:3px;
-    color:#121212;
-    cursor: pointer;
-    -webkit-user-select:none;
-    -moz-user-select:none;
-    -ms-user-select:none;
-    user-select:none;
-    -webkit-transition: all .2s;
-    transition: all .2s;
-}
-.main_btn:hover{
-    text-decoration: none;
-     background-color:#e2e21c;
-    color:#121212;
-}
-.main_btn:focus{
-    text-decoration: none;
-    color:#121212;
-    outline: 1px solid #28a9e0;
-}
-.main_btn_alt{
-    background-color: inherit;
-    outline:1px solid #000;
 }
 /*SCROLL ICONS&POSITION*/
 .add_scroll{
@@ -616,7 +616,6 @@ footer{
 .slider_container{
     min-height: 600px;
     margin-top:1em;
-  position: relative;
  background-color: #3f3f3f;
 }
 .next_btn,.prev_btn{

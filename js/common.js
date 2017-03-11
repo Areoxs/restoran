@@ -1,6 +1,4 @@
 $(document).ready(function() {
-
-
 	//Попап менеджер FancyBox
 	//Документация: http://fancybox.net/howto
 	//<a class="fancybox"><img src="image.jpg" /></a>
@@ -33,15 +31,14 @@ $(document).ready(function() {
 	//Документация: http://owlgraphic.com/owlcarousel/
 	var owl = $(".carousel");
 	owl.owlCarousel({
-		items : 3
+		 items: 1,
+         loop:true,
+        autoplay:true,
+        lazyLoad:true,
+        autoplayHoverPause:true,
+        autoplaySpeed:500
 	});
 
-	$(".next_button").click(function(){
-		owl.trigger("owl.next");
-	});
-	$(".prev_button").click(function(){
-		owl.trigger("owl.prev");
-	});
 
 	//Кнопка "Наверх"
 	//Документация:

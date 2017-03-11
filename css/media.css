@@ -2,26 +2,27 @@
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
-    .rest_menu_content_itm{
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-        flex-direction: column;
-        -webkit-box-pack: center;
-        -ms-flex-pack: center;
-        justify-content: center;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
-        align-items: center;
-        text-align: center;
-box-shadow: 0 0 36px 2px rgba(0, 0, 0, 0.05);
-  border: solid 1px #e4bb7a;
+        .rest_menu_content_itm {
+     display: -webkit-box;
+     display: -ms-flexbox;
+     display: flex;
+     -webkit-box-orient: vertical;
+     -webkit-box-direction: normal;
+     -ms-flex-direction: column;
+     flex-direction: column;
+     -webkit-box-pack: center;
+     -ms-flex-pack: center;
+     justify-content: center;
+     -webkit-box-align: center;
+     -ms-flex-align: center;
+     align-items: center;
+     text-align: center;
+     box-shadow: 0 0 36px 2px rgba(0, 0, 0, 0.05);
+     border: solid 1px #e4bb7a;
     }
     .rest_menu_content_itm_img{
-     margin:2em auto;
+     margin:2em auto 1em;
+     object-fit: contain;
     }
     .rest_menu_content_itm_description{
         padding:.4em;
@@ -50,17 +51,57 @@ box-shadow: 0 0 36px 2px rgba(0, 0, 0, 0.05);
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
-
+     .ask .main_text{
+        text-align: center;
+    font-size:26px;
+    line-height: 1.6;
+         padding:0 .3em;
+}
 }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
-
+    .welcome{
+        min-height: 600px;
+    }
+ .welcome_content__title{
+        font-size:55px;
+    }
+    .main_title{
+        font-size:26px;
+        letter-spacing: 2.3;
+    }
+    .alt_title{
+        font-size:35px;
+    }
+    .reserv .flex_wrap{
+        -ms-flex-pack: distribute;
+        justify-content: space-around;
+    }
+    .org_food{
+        min-height: 400px;
+    }
+    .org_food_content{
+        margin:4em 0;
+    }
+  
+.ask .alt_title{
+    margin-top:-1.7em;
 }
-
+    
+}
+/*media menu Fix*/
+@media only screen and (max-width : 670px){
+    
+}
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
-
+    .org_food_content_wrap{
+        padding: 2.5em 1.5em;
+    }
+    .main_text{
+        font-size:12px;
+    }
 }
 
 /* Custom, iPhone Retina */
